@@ -1,0 +1,9 @@
+{
+  "name": "CloudFlare™ Under Attack Mode Bypass",
+  "description": "Bypasses the \"I'm under attack\" mode 5 second waiting.",
+  "icons": { "128": "icon_128.png" },
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "permissions": [ "tabs", "webRequest", "<all_urls>" ], 
+  "background": { "scripts": ["background.js"] }
+}
